@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID19</title>
+    <link rel="stylesheet" href="css/mystyles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar is-fixed-top is-primary">
+          <div class="container">
+          <div class="navbar-brand">
+            <h5 class="navbar-item">COV19</h5>
+            <div class="navbar-burger burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="navbar-menu">
+              <div class="navbar-end">
+                  <a href="#judul1" class="navbar-item  ">Covid Indonesia</a>
+                  <a href="#judul2" class="navbar-item ">Dunia</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+     <!-- judul -->
+     <main>
+        <div class="hero is-info is-medium has-background-grey-darker">
+          <div class="container">
+            <div class="hero-body">
+              <div class="container has-text-centered pb-6">
+                <h1 id="judul1" class="title">COVID19 di Indonesia</h1>
+                <p class="subtitle">Info terkini jumlah pasien virus corona 19</p>
+              </div>
+  
+  
+              <!-- info grafik -->
+              <!-- grid atas -->
+              <div class="tile is-ancentor">
+                <div class="tile is-parent is-8 is-vertical">
+                  <article class="tile is-child box">
+                    <p class="title has-text-black">GRAP KASUS DIDUNIA</p>
+                    <div class="media" >
+                        <img src="https://covid19.mathdro.id/api/og">
+                    </div>    
+                </article>
+                  
+                </div>
+                <div class="tile is-parent">
+                  <article class="is-child box">
+                    <div id="jumlahDataSembuh"></div>
+                    <p class="has-text-warning title">Corona  </p>
+                    <p>Virus Corona atau severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) adalah virus yang menyerang sistem pernapasan. Penyakit karena infeksi virus ini disebut COVID-19. Virus Corona bisa menyebabkan gangguan ringan pada sistem pernapasan, infeksi paru-paru yang berat, hingga kematian.</p>
+                  </article>
+                </div>
+              
+              <!-- grid bawah -->
+              
+
+              </div>
+
+              
+              <div class="tile is-ancentor mobile pb-6">
+                <div class="tile is-parent is-vertical">
+                  <article class="is-child box has-background-grey-dark">
+                    <div id="jumlahDataSembuh"></div>
+                    <p class="title  has-text-danger has-text-centered ">Meninggal</p>
+                    <h1 id="dataMeninggal" class="has-text-danger is-large title is-1 has-text-centered"></h1>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero, nisi neque voluptatum possimus nulla repudiandae reprehenderit minima doloribus illum quo tempora nemo amet quas quos vero quibusdam voluptates numquam?</p> -->
+                  </article>
+                </div>
+                <div class="tile is-parent is-vertical mobile">
+                  <article class="is-child box has-background-grey-dark is-full box-size-1 notification ">
+                    <h1 class="title has-text-primary has-text-centered  ">Sembuh</h1>
+                    <p id="dataSembuh" class="has-text-primary title is-1 has-text-centered"><strong></strong></p>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero, nisi neque voluptatum possimus nulla repudiandae reprehenderit minima doloribus illum quo tempora nemo amet quas quos vero quibusdam voluptates numquam?</p> -->
+                  </article>
+                </div>
+                <div class="tile is-parent is-vertical is-size-1-mobile">
+                  <article class="is-child box has-background-grey-dark has-text-centered">
+                    <p class="title has-text-warning ">Terkena</p>
+                    <p id="dataInfeksi" class="has-text-warning title is-1 "></p>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero, nisi neque voluptatum possimus nulla repudiandae reprehenderit minima doloribus illum quo tempora nemo amet quas quos vero quibusdam voluptates numquam?</p> -->
+                  </article>
+                </div>
+              </div>
+              
+  
+              <!-- jumlah didunia -->
+              <div class="level">
+                <h1></h1>
+              </div>
+
+              <div class="container has-text-centered pb-6 pt-6">
+                <h1 class="title">COVID19 di Dunia</h1>
+              </div>
+              <div class="columns  box has-background-grey-dark">
+                  <div class="column">
+                      <div class="table-container">
+                        <table class="table is-fullwidth is-narrow has-text-centered">
+                          <thead id="judul2" class="has-background-grey-dark ">
+                            <tr>
+                            <th class="has-text-white">Negara</th>
+                            <th class="has-text-white">confirmed</th>
+                            <th class="has-text-white">death</th>
+                            <th class="has-text-white">recovered</th>
+                          </tr>
+                          </thead>
+                          <tbody id="lihatNegara" class="has-background-grey-dark"  >
+                           
+                            
+                          </tbody>
+                        </table>
+                      </div>
+                  </div>
+                  <!-- <div class="column">
+                    asdasds
+                  </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer has-text-primary">
+          <area-bawah></area-bawah>
+      </footer>
+</body>
+</html>
